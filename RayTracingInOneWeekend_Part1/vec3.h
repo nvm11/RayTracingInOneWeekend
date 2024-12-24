@@ -69,7 +69,7 @@ public:
 };
 
 // point 3 is just vec3, but useful for geomrety clarity
-using point = vec3;
+using point3 = vec3;
 
 // utility functions
 // print values
