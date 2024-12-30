@@ -52,13 +52,13 @@ int main()
 
     // set pixels' color values left to right
     // top to bottom rows
-    for (int i = 0; i < image_height; i++)
+    for (int j = 0; j < image_height; j++)
     {
         // output progress
-        std::clog << "\rScanlines remaining: " << (image_height - i) << ' ' << std::flush;
-        for (int j = 0; j < image_width; j++)
+        std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush;
+        for (int i = 0; i < image_width; i++)
         {
-            auto pixel_center = pixel00_loc + (j * pixel_delta_u) + (i * pixel_delta_v);
+            auto pixel_center = pixel00_loc + (i * pixel_delta_u) + (j * pixel_delta_v);
             auto ray_direction = pixel_center - camera_center;
             ray r(camera_center, ray_direction);
 
@@ -67,6 +67,6 @@ int main()
         }
     }
 
-    // output that render is complete
+    // output that rendeFr is complete
     std::clog << "\rDone.   \n";
 }
