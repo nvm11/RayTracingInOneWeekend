@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.9.8+b34f75857 for .NET Framework
-      Build started 12/30/2024 2:37:53 PM.
+      Build started 12/30/2024 2:51:28 PM.
       
       Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.93
+      Time Elapsed 00:00:00.83
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.9.8+b34f75857 for .NET Framework
-      Build started 12/30/2024 2:37:55 PM.
+      Build started 12/30/2024 2:51:29 PM.
       
       Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.92
+      Time Elapsed 00:00:00.83
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-doivg4"
-      binary: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-doivg4"
+      source: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-3ayt6l"
+      binary: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-3ayt6l"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-doivg4'
+        Change Dir: 'C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-3ayt6l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82863.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c4f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 12/30/2024 2:37:57 PM.
+        Build started 12/30/2024 2:51:31 PM.
         
-        Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-doivg4\\cmTC_82863.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ayt6l\\cmTC_0c4f1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_82863.dir\\Debug\\".
+          Creating directory "cmTC_0c4f1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-doivg4\\Debug\\".
-          Creating directory "cmTC_82863.dir\\Debug\\cmTC_82863.tlog\\".
+          Creating directory "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ayt6l\\Debug\\".
+          Creating directory "cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_82863.dir\\Debug\\cmTC_82863.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_82863.dir\\Debug\\cmTC_82863.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82863.dir\\Debug\\\\" /Fd"cmTC_82863.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4f1.dir\\Debug\\\\" /Fd"cmTC_0c4f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82863.dir\\Debug\\\\" /Fd"cmTC_82863.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4f1.dir\\Debug\\\\" /Fd"cmTC_0c4f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-doivg4\\Debug\\cmTC_82863.exe" /INCREMENTAL /ILK:"cmTC_82863.dir\\Debug\\cmTC_82863.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-doivg4/Debug/cmTC_82863.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-doivg4/Debug/cmTC_82863.lib" /MACHINE:X64  /machine:x64 cmTC_82863.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_82863.vcxproj -> C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-doivg4\\Debug\\cmTC_82863.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ayt6l\\Debug\\cmTC_0c4f1.exe" /INCREMENTAL /ILK:"cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-3ayt6l/Debug/cmTC_0c4f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-3ayt6l/Debug/cmTC_0c4f1.lib" /MACHINE:X64  /machine:x64 cmTC_0c4f1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0c4f1.vcxproj -> C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ayt6l\\Debug\\cmTC_0c4f1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_82863.dir\\Debug\\cmTC_82863.tlog\\unsuccessfulbuild".
-          Touching "cmTC_82863.dir\\Debug\\cmTC_82863.tlog\\cmTC_82863.lastbuildstate".
-        Done Building Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-doivg4\\cmTC_82863.vcxproj" (default targets).
+          Deleting file "cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c4f1.dir\\Debug\\cmTC_0c4f1.tlog\\cmTC_0c4f1.lastbuildstate".
+        Done Building Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ayt6l\\cmTC_0c4f1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.90
+        Time Elapsed 00:00:00.88
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-mzy4ly"
-      binary: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-mzy4ly"
+      source: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-wa0cd7"
+      binary: "C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-wa0cd7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-mzy4ly'
+        Change Dir: 'C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-wa0cd7'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9a45a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_adef7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.9.8+b34f75857 for .NET Framework
-        Build started 12/30/2024 2:37:58 PM.
+        Build started 12/30/2024 2:51:32 PM.
         
-        Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzy4ly\\cmTC_9a45a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa0cd7\\cmTC_adef7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9a45a.dir\\Debug\\".
+          Creating directory "cmTC_adef7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzy4ly\\Debug\\".
-          Creating directory "cmTC_9a45a.dir\\Debug\\cmTC_9a45a.tlog\\".
+          Creating directory "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa0cd7\\Debug\\".
+          Creating directory "cmTC_adef7.dir\\Debug\\cmTC_adef7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9a45a.dir\\Debug\\cmTC_9a45a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9a45a.dir\\Debug\\cmTC_9a45a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_adef7.dir\\Debug\\cmTC_adef7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_adef7.dir\\Debug\\cmTC_adef7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9a45a.dir\\Debug\\\\" /Fd"cmTC_9a45a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_adef7.dir\\Debug\\\\" /Fd"cmTC_adef7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9a45a.dir\\Debug\\\\" /Fd"cmTC_9a45a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_adef7.dir\\Debug\\\\" /Fd"cmTC_adef7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzy4ly\\Debug\\cmTC_9a45a.exe" /INCREMENTAL /ILK:"cmTC_9a45a.dir\\Debug\\cmTC_9a45a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-mzy4ly/Debug/cmTC_9a45a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-mzy4ly/Debug/cmTC_9a45a.lib" /MACHINE:X64  /machine:x64 cmTC_9a45a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_9a45a.vcxproj -> C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzy4ly\\Debug\\cmTC_9a45a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa0cd7\\Debug\\cmTC_adef7.exe" /INCREMENTAL /ILK:"cmTC_adef7.dir\\Debug\\cmTC_adef7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-wa0cd7/Debug/cmTC_adef7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/natem/source/repos/RayTracingInOneWeekend/RayTracingInOneWeekend_Part1/build/CMakeFiles/CMakeScratch/TryCompile-wa0cd7/Debug/cmTC_adef7.lib" /MACHINE:X64  /machine:x64 cmTC_adef7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_adef7.vcxproj -> C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa0cd7\\Debug\\cmTC_adef7.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9a45a.dir\\Debug\\cmTC_9a45a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9a45a.dir\\Debug\\cmTC_9a45a.tlog\\cmTC_9a45a.lastbuildstate".
-        Done Building Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzy4ly\\cmTC_9a45a.vcxproj" (default targets).
+          Deleting file "cmTC_adef7.dir\\Debug\\cmTC_adef7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_adef7.dir\\Debug\\cmTC_adef7.tlog\\cmTC_adef7.lastbuildstate".
+        Done Building Project "C:\\Users\\natem\\source\\repos\\RayTracingInOneWeekend\\RayTracingInOneWeekend_Part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa0cd7\\cmTC_adef7.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.94
+        Time Elapsed 00:00:00.89
         
       exitCode: 0
   -
