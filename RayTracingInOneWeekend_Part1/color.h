@@ -14,9 +14,9 @@ void write_color(std::ostream &out, const color &pixel_color)
     auto b = pixel_color.z();
 
     // convert from range 0-1 to range 0-255
-    int rbyte = int(255.99 * r);
-    int gbyte = int(255.99 * g);
-    int bbyte = int(255.99 * b);
+    int rbyte = int(255.999 * r);
+    int gbyte = int(255.999 * g);
+    int bbyte = int(255.999 * b);
 
     // display values
     out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';

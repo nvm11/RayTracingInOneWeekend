@@ -38,8 +38,8 @@ int main()
     auto viewport_v = vec3(0, -viewport_height, 0);
 
     // calculate the horizontal and vertical delta vectors from pixel to pixel
-    auto pixel_delta_u = viewport_u / viewport_width;
-    auto pixel_delta_v = viewport_v / viewport_height;
+    auto pixel_delta_u = viewport_u / image_width;
+    auto pixel_delta_v = viewport_v / image_height;
 
     // get the location of the upper left pixel
     auto viewport_upper_left = camera_center - vec3(0, 0, focal_length) - viewport_u / 2 - viewport_v / 2;
