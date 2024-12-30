@@ -4,9 +4,26 @@
 #include "vec3.h"
 #include "ray.h"
 
+// hard code math to draw red circle
+bool hit_sphere(const point3 &center, double radius, const ray &r)
+{
+    vec3 oc = center - r.origin();
+    auto a = dot(r.direction(), r.direction());
+    auto b = -2.0 * dot(r.direction(), oc);
+    auto c = dot(oc, oc) - radius * radius;
+    auto discriminant = b * b - 4 * a * c;
+    return (discriminant >= 0);
+}
+
 // blue to white gradient
 color ray_color(const ray &r)
 {
+    // draw sphere
+    if (hit_sphere(point3(0, 0, -1), .5, r))
+    {
+        return color(1, 0, 0);
+    }
+
     // convert ray to unit vecotr
     vec3 unit_direction = unit_vector(r.direction());
     // calculate height
