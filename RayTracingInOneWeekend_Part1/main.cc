@@ -4,14 +4,24 @@
 #include "vec3.h"
 #include "ray.h"
 
-// hard code math to draw red circle
-bool hit_sphere(const point3 &center, double radius, const ray &r)
+// hard code math to draw circle shaded with normals
+double hit_sphere(const point3 &center, double radius, const ray &r)
 {
     vec3 oc = center - r.origin();
     auto a = dot(r.direction(), r.direction());
     auto b = -2.0 * dot(r.direction(), oc);
     auto c = dot(oc, oc) - radius * radius;
     auto discriminant = b * b - 4 * a * c;
+
+    if(discriminant < 0){
+        //hidden by another point
+        return -1.0;
+    }
+    else{
+        //return hit point as unit vector
+        return(-b - std::sqrt(discriminant)) / (2.0 * a);
+    }
+    
     return (discriminant >= 0);
 }
 
