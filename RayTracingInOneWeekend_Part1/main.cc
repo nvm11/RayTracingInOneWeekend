@@ -13,27 +13,33 @@ double hit_sphere(const point3 &center, double radius, const ray &r)
     auto c = dot(oc, oc) - radius * radius;
     auto discriminant = b * b - 4 * a * c;
 
-    if(discriminant < 0){
-        //hidden by another point
+    if (discriminant < 0)
+    {
+        // hidden by another point
         return -1.0;
     }
-    else{
-        //return hit point as unit vector
-        return(-b - std::sqrt(discriminant)) / (2.0 * a);
+    else
+    {
+        // use quadratic equation to choose the closest intersection point
+        return (-b - std::sqrt(discriminant)) / (2.0 * a);
     }
-    
-    return (discriminant >= 0);
 }
 
 // blue to white gradient
 color ray_color(const ray &r)
 {
     // draw sphere
-    if (hit_sphere(point3(0, 0, -1), .5, r))
+    // get surface normal
+    auto t = hit_sphere(point3(0, 0, -1), 0.5, r);
+    if (t > 0.0)
     {
-        return color(1, 0, 0);
+        // normalize the intersection point
+        vec3 N = unit_vector(r.at(t) - vec3(0, 0, -1));
+        // calculate color
+        return 0.5 * color(N.x() + 1, N.y() + 1, N.z() + 1);
     }
 
+    // draw background
     // convert ray to unit vecotr
     vec3 unit_direction = unit_vector(r.direction());
     // calculate height
