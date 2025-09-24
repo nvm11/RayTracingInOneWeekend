@@ -11,6 +11,15 @@ public:
     // normal of hit
     vec3 normal;
     double t;
+
+    bool front_face;
+
+    void set_face_normal(const ray& r, const vec3& outward_normal) {
+        // Sets the hit record's normal vector
+        // outward_normal is assumed to be a unit vector
+        front_face = dot(r.direction(), outward_normal) < 0;
+        normal = front_face ? outward_normal : -outward_normal;
+    }
 };
 
 class hittable
