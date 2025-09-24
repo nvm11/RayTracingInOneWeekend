@@ -1,12 +1,13 @@
 #ifndef COLOR_H
 #define COLOR_H
-// include dependencies
-#include "vec3.h"
+
+// include minimal dependency
+#include "vec3.h" // defines vec3 and point3
 
 using color = vec3;
 
 // used to display the color's rgb values
-void write_color(std::ostream &out, const color &pixel_color)
+inline void write_color(std::ostream &out, const color &pixel_color)
 {
     // create rgb variables
     auto r = pixel_color.x();
@@ -19,7 +20,7 @@ void write_color(std::ostream &out, const color &pixel_color)
     int bbyte = int(255.999 * b);
 
     // display values
-    out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
+    //out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
 }
 
 #endif
